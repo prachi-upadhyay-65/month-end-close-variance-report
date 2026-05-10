@@ -19,12 +19,15 @@ The company delivers IT services to domestic clients and exports software servic
 ## What the Numbers Revealed
 
 ### Finding 1 — Revenue Shortfall is a Timing Issue, Not a Demand Issue
+
 March revenue came in at **₹1,31,50,000 against a budget of ₹1,35,00,000 — a ₹3,50,000 shortfall (2.6% adverse).** The entire gap traces to export revenue: USD 49,500 worth of invoices were raised on 1 April due to client approval cycles running past the month-end cut-off. The domestic pipeline is healthy with 3 active RFPs worth ₹48L in progress. This is a billing process problem, not a revenue problem.
 
 ### Finding 2 — Salary Overrun Needs a Structural Fix
+
 Total salary cost (delivery + admin) exceeded budget by **₹3,50,000 (~8% adverse).** Two drivers: a one-time retention bonus of ₹2,00,000 paid to two senior analysts (MD-approved on 28 March), and a mid-month contract engineer hire that added ₹2,00,000 to delivery costs. Both were individually approved but neither was reflected in the budget — the issue is process, not spend control. Without a supplementary budget approval mechanism, forecast accuracy will continue to deteriorate.
 
 ### Finding 3 — DSO Deterioration is an Early Warning Signal
+
 Days Sales Outstanding stretched to **51 days in March, up from 45 days in February** — a 13% increase in one month. The two largest customers (representing ₹9,20,000 of the AR balance) are 18–22 days past due. If this trend continues into Q1 FY26, the company will face a working capital squeeze despite healthy revenue.
 
 ---
@@ -52,6 +55,29 @@ Days Sales Outstanding stretched to **51 days in March, up from 45 days in Febru
 
 ---
 
+## Workbook Preview
+
+### Budget vs Actuals — Variance Analysis
+*Colour-coded variance table with root cause commentary for each line item*
+
+![Budget vs Actuals](screenshots/budget_vs_actuals.jpeg)
+
+---
+
+### Management Summary — CFO Report
+*KPI scorecard, 3 key takeaways, and action register with owners and due dates*
+
+![Management Summary](screenshots/management_summary.jpeg)
+
+---
+
+### Trial Balance
+*37 accounts with opening balances, March transactions, closing balance formulas, and debit/credit balance check*
+
+![Trial Balance](screenshots/trial_balance.jpeg)
+
+---
+
 ## Key Finance Concepts Demonstrated
 
 - **Trial balance preparation** — double-entry structure with debit/credit balance verification
@@ -71,7 +97,7 @@ Days Sales Outstanding stretched to **51 days in March, up from 45 days in Febru
 - Built entirely in **Microsoft Excel** using `openpyxl`
 - **121 live formulas** — zero hardcoded calculated values
 - P&L pulls directly from Trial Balance via `SUMIF` on account codes — change any transaction figure and the entire P&L updates automatically
-- Color-coded per finance industry standard: **blue = hardcoded inputs**, **black = formulas**, **green = cross-sheet links**
+- Colour-coded per finance industry standard: **blue = hardcoded inputs**, **black = formulas**, **green = cross-sheet links**
 - Verified with **zero formula errors** (`#REF!`, `#DIV/0!`, `#VALUE!` — all clean)
 
 ---
@@ -86,4 +112,4 @@ Days Sales Outstanding stretched to **51 days in March, up from 45 days in Febru
 
 ## About This Project
 
-This project was built specifically to demonstrate the finance operations skills described in roles requiring month-end close ownership, statutory account consolidation, and financial reporting — including budget vs actuals variance analysis, ERP period management, and CFO-level management reporting. The scenario, company, and all figures are fictional and created for portfolio purposes.
+This project was built to demonstrate the finance operations skills required in roles involving month-end close ownership, statutory account consolidation, and financial reporting — including budget vs actuals variance analysis, ERP period management, and CFO-level management reporting. The scenario, company, and all figures are fictional and created for portfolio purposes.
